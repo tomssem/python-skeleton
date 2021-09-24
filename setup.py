@@ -20,6 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: Apache 2 License",
         "Operating System :: OS Independent",
     ],
+    scripts=['bin/example.py'],
     python_requires='>=3',
     setup_requires=['pytest-runner'],
     tests_require=['pytest']
