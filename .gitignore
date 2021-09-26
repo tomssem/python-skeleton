@@ -3,4 +3,4 @@ build/
 dist/
 python_skeleton.egg-info/
 .venv/
-__pycache__
+__pycache__/
