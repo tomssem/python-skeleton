@@ -6,20 +6,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="python_skeleton", # Replace with your own name
+    name="GSMA ESO rule-based extraction",
     version="0.0.1",
-    author="Some Person",
-    author_email="someone@example.com",
+    author="Deeper Insights",
     description="A python skeleton",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/joshbressers/python-skeleton",
     packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache 2 License",
-        "Operating System :: OS Independent",
-    ],
     scripts=['bin/example.py'],
     python_requires='>=3',
     setup_requires=['pytest-runner'],

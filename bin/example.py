@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 
-import python_skeleton
+import gsma_eso
 
 def main():
-    my_string = python_skeleton.return_string("Hello World")
-    print(my_string)
+    print("Hello world")
 
 if __name__ == "__main__":
     main()
